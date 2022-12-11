@@ -18,15 +18,21 @@
                     <label for="number">Age(optional)<input id="number" type="number" min="13" max="120" placeholder="Age"></label>
                     <label>Which option best describes your current role?
                         <select>
-                            <option></option>
-                            <option></option>
-                            <option></option>
-                            <option></option>
-                            <option></option>
+                            <option disabled selected value>Select current role</option>
+                            <option value="student">Student</option>
+                            <option value="job">Full Time Job</option>
+                            <option value="learner">Full Time Learner</option>
+                            <option value="preferNo">Prefer not to say</option>
+                            <option value="other">Other</option>
                         </select>
                     </label>
                 </fieldset>
-                <fieldset></fieldset>
+                <fieldset>
+                    <p>Would you recommend freeCodeCamp to a friend?</p>
+                    <label for="definitely"><input id="definitely" type='radio'>Definitely</label>
+                    <label for='maybe'><input id='maybe' type='radio'>Maybe</label>
+                    <label for='not-sure'><input id='not-sure' type='radio'>Not sure</label>
+                </fieldset>
                 <fieldset></fieldset>
                 <fieldset></fieldset>
             </form>
