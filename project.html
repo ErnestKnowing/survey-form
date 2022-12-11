@@ -16,8 +16,8 @@
                     <label for="name">Name<input id="name" type="text" placeholder="Enter your Name"></label>
                     <label for="email">Email<input id="email" type="email" name="email" required placeholder="Enter your Email"></label>
                     <label for="number">Age(optional)<input id="number" type="number" min="13" max="120" placeholder="Age"></label>
-                    <label>Which option best describes your current role?
-                        <select>
+                    <label for="dropdown">Which option best describes your current role?
+                        <select id="dropdown">
                             <option disabled selected value>Select current role</option>
                             <option value="student">Student</option>
                             <option value="job">Full Time Job</option>
@@ -34,8 +34,8 @@
                     <label for='not-sure'><input id='not-sure' type='radio'>Not sure</label>
                 </fieldset>
                 <fieldset>
-                    <label>What is your favorite feature of freeCodeCamp?
-                        <select>
+                    <label for="dropdown">What is your favorite feature of freeCodeCamp?
+                        <select id="dropdown">
                             <option disabled selected value>Select an option</option>
                             <option value="challenges">Challenges</option>
                             <option value="projects">Projects</option>
@@ -58,6 +58,7 @@
                     <label for="forum"><input type="checkbox" id="forum">Forum</label>
                     <label for="additional"><input type="checkbox" id="additional">Additional Courses</label>
                     <label for="comment">Any comments or suggestions?<textarea id="comment" name="comment" rows="3" cols="30" placeholder="Enter your comment here..."></textarea></label>
+                    <input type="submit" value="Submit">
                 </fieldset>
             </form>
         </div>
