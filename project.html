@@ -13,10 +13,18 @@
             </header>
             <form id="survey">
                 <fieldset>
-                    <label>Name<input></label>
-                    <label>Email<input></label>
-                    <label>Age(optional)<input></label>
-                    <label>Which option best describes your current role?<input></label>
+                    <label for="name">Name<input id="name" type="text" placeholder="Enter your Name"></label>
+                    <label for="email">Email<input id="email" type="email" name="email" required placeholder="Enter your Email"></label>
+                    <label for="number">Age(optional)<input id="number" type="number" min="13" max="120" placeholder="Age"></label>
+                    <label>Which option best describes your current role?
+                        <select>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                        </select>
+                    </label>
                 </fieldset>
                 <fieldset></fieldset>
                 <fieldset></fieldset>
