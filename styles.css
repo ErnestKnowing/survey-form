@@ -46,3 +46,15 @@ label {
     height: 35px;
     width: 100%;
   }
+#name, #email, #number{
+    width: 100%;
+    height: 25px;
+  }
+
+  select {
+    width: 100%;
+    height: 25px;
+  }
+  textarea {
+    width: 100%;
+  }
