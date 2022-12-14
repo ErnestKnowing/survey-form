@@ -1,1 +1,1 @@
-https://ernestknowing.github.io/survey-form/fr
+https://ernestknowing.github.io/survey-form/
